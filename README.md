@@ -1,4 +1,6 @@
-Spatial Mapping System (LiDAR)
+**Spatial Mapping System (LiDAR)**
+
+
 An embedded spatial mapping system that leverages the VL53L1X Time-of-Flight (ToF) sensor for precise 3D environment scanning. Built using the TI MSP432E401Y microcontroller, the system captures spatial data via I2C, transmits it over UART, and reconstructs it using Python with PyVista for 3D visualization.
 
 Features
