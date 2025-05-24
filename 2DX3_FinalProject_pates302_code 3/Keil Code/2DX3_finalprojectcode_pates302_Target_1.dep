@@ -1,0 +1,55 @@
+Dependencies for Project '2DX3_finalprojectcode_pates302', Target 'Target_1': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\main.c)(0x67F73F70)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/shiv/AppData/Local/Arm/Packs/TexasInstruments/MSP432E4_DFP/3.2.6/Device/Include-D__UVISION_VERSION="541" -D__MSP432E401Y__-o ./main.o -MMD)
+I (tm4c1294ncpdt.h)(0x62E440C2)
+I (SysTick.h)(0x62E440C2)
+I (PLL.h)(0x67EADA47)
+I (uart.h)(0x62E440C2)
+I (onboardLEDs.h)(0x67F73F73)
+I (i2c.h)(0x67F73B51)
+I (lidar.h)(0x62E440C2)
+I (startStop.h)(0x67F73B93)
+I (stepperMotor.h)(0x67EA3D67)
+F (.\PLL.c)(0x67EADAAE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/shiv/AppData/Local/Arm/Packs/TexasInstruments/MSP432E4_DFP/3.2.6/Device/Include-D__UVISION_VERSION="541" -D__MSP432E401Y__-o ./pll.o -MMD)
+I (PLL.h)(0x67EADA47)
+F (.\stepperMotor.c)(0x67EA8F23)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/shiv/AppData/Local/Arm/Packs/TexasInstruments/MSP432E4_DFP/3.2.6/Device/Include-D__UVISION_VERSION="541" -D__MSP432E401Y__-o ./steppermotor.o -MMD)
+I (SysTick.h)(0x62E440C2)
+I (tm4c1294ncpdt.h)(0x62E440C2)
+I (stepperMotor.h)(0x67EA3D67)
+F (.\SysTick.c)(0x67F73D69)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/shiv/AppData/Local/Arm/Packs/TexasInstruments/MSP432E4_DFP/3.2.6/Device/Include-D__UVISION_VERSION="541" -D__MSP432E401Y__-o ./systick.o -MMD)
+I (Systick.h)(0x62E440C2)
+F (.\startStop.c)(0x67EA8E58)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/shiv/AppData/Local/Arm/Packs/TexasInstruments/MSP432E4_DFP/3.2.6/Device/Include-D__UVISION_VERSION="541" -D__MSP432E401Y__-o ./startstop.o -MMD)
+I (tm4c1294ncpdt.h)(0x62E440C2)
+I (startStop.h)(0x67F73B93)
+F (.\onboardLEDs.c)(0x67F73F6C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/shiv/AppData/Local/Arm/Packs/TexasInstruments/MSP432E4_DFP/3.2.6/Device/Include-D__UVISION_VERSION="541" -D__MSP432E401Y__-o ./onboardleds.o -MMD)
+I (tm4c1294ncpdt.h)(0x62E440C2)
+I (SysTick.h)(0x62E440C2)
+I (onboardLEDs.h)(0x67F73F73)
+F (.\vl53l1_platform_2dx4.c)(0x67EA8819)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/shiv/AppData/Local/Arm/Packs/TexasInstruments/MSP432E4_DFP/3.2.6/Device/Include-D__UVISION_VERSION="541" -D__MSP432E401Y__-o ./vl53l1_platform_2dx4.o -MMD)
+I (tm4c1294ncpdt.h)(0x62E440C2)
+I (vl53l1_platform_2dx4.h)(0x62E440C2)
+I (vl53l1_types_2dx4.h)(0x62E440C2)
+I (onboardLEDs.h)(0x67F73F73)
+F (.\lidar.c)(0x67F73EEB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/shiv/AppData/Local/Arm/Packs/TexasInstruments/MSP432E4_DFP/3.2.6/Device/Include-D__UVISION_VERSION="541" -D__MSP432E401Y__-o ./lidar.o -MMD)
+I (vl53l1x_api.h)(0x62E440C2)
+I (vl53l1_platform.h)(0x62E440C2)
+I (vl53l1_types.h)(0x62E440C2)
+I (uart.h)(0x62E440C2)
+I (onboardLEDs.h)(0x67F73F73)
+I (tm4c1294ncpdt.h)(0x62E440C2)
+I (SysTick.h)(0x62E440C2)
+I (lidar.h)(0x62E440C2)
+F (.\i2c.c)(0x67F73B48)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/shiv/AppData/Local/Arm/Packs/TexasInstruments/MSP432E4_DFP/3.2.6/Device/Include-D__UVISION_VERSION="541" -D__MSP432E401Y__-o ./i2c.o -MMD)
+I (tm4c1294ncpdt.h)(0x62E440C2)
+I (i2c.h)(0x67F73B51)
+F (.\uart.c)(0x62E440C2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/shiv/AppData/Local/Arm/Packs/TexasInstruments/MSP432E4_DFP/3.2.6/Device/Include-D__UVISION_VERSION="541" -D__MSP432E401Y__-o ./uart.o -MMD)
+I (uart.h)(0x62E440C2)
+I (tm4c1294ncpdt.h)(0x62E440C2)
+F (.\vl53l1_platform.c)(0x62E440C2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/shiv/AppData/Local/Arm/Packs/TexasInstruments/MSP432E4_DFP/3.2.6/Device/Include-D__UVISION_VERSION="541" -D__MSP432E401Y__-o ./vl53l1_platform.o -MMD)
+I (vl53l1_platform.h)(0x62E440C2)
+I (vl53l1_types.h)(0x62E440C2)
+F (.\VL53L1X_api.c)(0x62E440C2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/shiv/AppData/Local/Arm/Packs/TexasInstruments/MSP432E4_DFP/3.2.6/Device/Include-D__UVISION_VERSION="541" -D__MSP432E401Y__-o ./vl53l1x_api.o -MMD)
+I (VL53L1X_api.h)(0x62E440C2)
+I (vl53l1_platform.h)(0x62E440C2)
+I (vl53l1_types.h)(0x62E440C2)
+I (uart.h)(0x62E440C2)

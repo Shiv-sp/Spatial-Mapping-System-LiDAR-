@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.41.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Shiv Patel, McMaster University COMPENG 2DX3, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.41.0.0
+Toolchain Path:  C:\Users\shiv\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.41.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.14.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+\\Mac\Home\Downloads\2DX3_FinalProject_pates302_code\Keil Code\2DX3_finalprojectcode_pates302.uvprojx
+Project File Date:  04/09/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'C:\Users\shiv\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target_1'
+compiling onboardLEDs.c...
+lidar.c(23): warning: unused variable 'ToFSensor' [-Wunused-variable]
+   23 |         uint8_t ToFSensor = 1; // 0 = Left, 1 = Center (default), 2 = Right
+      |                 ^~~~~~~~~
+1 warning generated.
+compiling lidar.c...
+vl53l1_platform_2dx4.c(129): warning: comparison of integers of different signs: 'int' and 'uint32_t' (aka 'unsigned int') [-Wsign-compare]
+  129 |         for(int i = 0; i < count-1; i++){ 
+      |                        ~ ^ ~~~~~~~
+vl53l1_platform_2dx4.c(224): warning: comparison of integers of different signs: 'int' and 'uint32_t' (aka 'unsigned int') [-Wsign-compare]
+  224 |         for(int i = 0; i < count; i++) readI2C(pdata++);
+      |                        ~ ^ ~~~~~
+vl53l1_platform_2dx4.c(289): warning: incompatible pointer types passing 'uint32_t *' (aka 'unsigned int *') to parameter of type 'uint8_t *' (aka 'unsigned char *') [-Wincompatible-pointer-types]
+  289 |         writeI2C(&data, 4);     
+      |                  ^~~~~
+vl53l1_platform_2dx4.c(127): note: passing argument to parameter 'pdata' here
+  127 | int8_t writeI2C(uint8_t *pdata, uint32_t count){
+      |                          ^
+3 warnings generated.
+compiling vl53l1_platform_2dx4.c...
+linking...
+.\2DX3_finalprojectcode_pates302.axf: Error: L6200E: Symbol VL53L1_WrWord multiply defined (by vl53l1_platform.o and vl53l1_platform_2dx4.o).
+.\2DX3_finalprojectcode_pates302.axf: Error: L6200E: Symbol VL53L1_WrDWord multiply defined (by vl53l1_platform.o and vl53l1_platform_2dx4.o).
+.\2DX3_finalprojectcode_pates302.axf: Error: L6200E: Symbol VL53L1_RdByte multiply defined (by vl53l1_platform.o and vl53l1_platform_2dx4.o).
+.\2DX3_finalprojectcode_pates302.axf: Error: L6200E: Symbol VL53L1_WriteMulti multiply defined (by vl53l1_platform.o and vl53l1_platform_2dx4.o).
+.\2DX3_finalprojectcode_pates302.axf: Error: L6200E: Symbol VL53L1_ReadMulti multiply defined (by vl53l1_platform.o and vl53l1_platform_2dx4.o).
+.\2DX3_finalprojectcode_pates302.axf: Error: L6200E: Symbol VL53L1_WrByte multiply defined (by vl53l1_platform.o and vl53l1_platform_2dx4.o).
+.\2DX3_finalprojectcode_pates302.axf: Error: L6200E: Symbol VL53L1_RdWord multiply defined (by vl53l1_platform.o and vl53l1_platform_2dx4.o).
+.\2DX3_finalprojectcode_pates302.axf: Error: L6200E: Symbol VL53L1_RdDWord multiply defined (by vl53l1_platform.o and vl53l1_platform_2dx4.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 8 error messages.
+".\2DX3_finalprojectcode_pates302.axf" - 8 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: TexasInstruments
+                http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/msp432cmsis/latest/exports/TexasInstruments.MSP432E4_DFP.3.2.6.pack
+                TexasInstruments::MSP432E4_DFP@3.2.6
+                Device Family Pack for Texas Instruments SimpleLink(TM) MSP432E4 Series
+
+<h2>Collection of Component include folders:</h2>
+  C:/Users/shiv/AppData/Local/Arm/Packs/TexasInstruments/MSP432E4_DFP/3.2.6/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
